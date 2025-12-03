@@ -1,0 +1,149 @@
+.title{
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 850px;
+  border: 2px solid black;
+  transition: 500ms ease-in-out;
+}
+.title:hover{
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+  font-weight: bolder;
+}
+.form{
+  margin: auto;
+  width: 750px;
+  justify-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid gray;
+  padding: 20px;
+  transition: 500ms;
+  /* background-image: url(./images/baaji.png); */
+}
+.form:hover{
+  border-radius: 20px;
+  border-color: black;
+}
+.form-title{
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  width: 450px;
+  color: white;  
+  background-color: black ;
+  border: 1px solid white;
+  border-radius: 10px ;
+  transition: 500ms ease-in-out;
+}
+.form-title:hover{
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-weight: bolder;
+}
+.div-input-1{
+  display: flex;
+  justify-content: left;
+  width: 300px;
+  gap: 10px;
+}
+.input-1-name{
+  display: block;
+  gap: 10px;
+}
+.input-1{
+  display: block;
+  gap: 10px;
+}
+.input-1-name{
+  width: 140px;
+}
+.input-1-name{
+  width: 140px;
+}
+.input-1-1{
+  width: 140px;
+}
+.input-1-2{
+  width: 140px;
+}
+input{
+  border: 2px solid grey;
+  border-radius: 5px;
+  width: 300px;
+  height: 25px;
+  font-size: smaller;
+  color: black;
+}
+.div-input-2{
+  justify-content: left;
+}
+p{
+  font-weight: bolder;
+  color: black;
+  text-align: left;
+  justify-content: center;
+  height: 15px;
+  padding: 5px;
+}
+.div-input-3{
+  justify-content: left;
+}
+.div-input-4{
+  justify-content: left;
+}
+.input-4-feed-back{
+  height: 100px;
+}
+.submit{
+  border: 2px solid transparent;
+  color: black;
+  background-color: white;
+  border: 2px solid gray;
+  margin: 10px;
+  margin-left: 325px;
+  font-weight: bolder;
+  transition: 500ms;
+}
+.submit:hover{
+  border: 2px solid gray;
+  color: white;
+  background-color: black;
+}
+.map-container{
+  margin: auto;
+}
+.map-container iframe{
+  margin: 2rem auto; 
+  display: block;
+  border: 2px solid gray;
+  padding: 5px;
+  width: 650px;
+  height: 400px;
+}
+@media screen and (max-width: 600px) {
+  .form{
+    flex-direction: column;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .map-container{
+    height: 250px;
+  }
+}
+.value{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+  font-weight: bolder;
+  text-align: center;
+}
