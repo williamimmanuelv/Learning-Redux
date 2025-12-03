@@ -1,0 +1,21 @@
+Redux
+
+sending the data to the store is called action.
+
+we can send the data from different component (component a) 
+to the store 
+and we can receive or use the data  (which is in the store) 
+from different component 
+(component a, b, c, d)
+
+
+Requirement to use Redux
+
+npm install react-redux @reduxjs/toolkit
+
+create redux  --> creating slice
+
+slices --> parts of state
+
+install redux DevTools
+
