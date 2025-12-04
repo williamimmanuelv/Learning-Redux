@@ -1,9 +1,13 @@
-import './App.css'
-import CustomerAdd from './CustomerAdd'
 import { Provider } from 'react-redux'
+import './App.css'
+import NewAdd from './NewAdd'
+import NewShowCustomer from './NewShowCustomer'
+import { NewStore } from './NewStore'
+// import CustomerAdd from './CustomerAdd'
+// import { Provider } from 'react-redux'
 // import { store } from './Store'
-import CustomerView from './CustomerView'
-import Todo_list from './Todo-List/Todo_list'
+// import CustomerView from './CustomerView'
+// import Todo_list from './Todo-List/Todo_list'
 function App() {
 
   return (
@@ -13,7 +17,12 @@ function App() {
         <CustomerAdd />
         <CustomerView />
       </Provider> */}
-      <Todo_list/>
+      {/* <Todo_list/> */}
+
+      <Provider store={NewStore}>
+        <NewAdd />
+        <NewShowCustomer />
+      </Provider>
     </>
   )
 }

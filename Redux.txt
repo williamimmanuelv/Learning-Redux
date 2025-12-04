@@ -19,3 +19,7 @@ slices --> parts of state
 
 install redux DevTools
 
+configureStore
+createSlice
+dispatch
+useSelector
